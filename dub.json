@@ -1,0 +1,24 @@
+{
+	"name": "xkeybin-d",
+	"description": "Interface for global keyboard shortcuts on X11",
+	"copyright": "Copyright © 2016, webfreak",
+	"authors": [
+		"webfreak"
+	],
+	"license": "MIT",
+	"dependencies": {
+		"x11": "~>1.0.9"
+	},
+	"configurations": [
+		{
+			"targetType": "library",
+			"name": "library",
+			"sourcePaths": ["source"]
+		},
+		{
+			"targetType": "executable",
+			"name": "xkeybind-test",
+			"sourcePaths": ["source", "test"]
+		}
+	]
+}
